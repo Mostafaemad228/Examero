@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="70x70" href="images/favicon-70x70.png">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="css/fontawsome/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawsome/solid.min.css">
+    <link rel="stylesheet" href="css/fontawsome/brands.min.css">
+    <!-- plugins -->
+    
+
+    <!-- main Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/preloader.css"> -->
+    <link rel="stylesheet" href="css/loader/preloader.css">
+    <meta name="theme-color" content="var(--sec-color)">
+
+    <title> contact us </title>
+</head>
+<body>
+
+   <!-- ? Preloader Start -->
+   <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text ">
+              <img src="images/loader.gif" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ? Preloader end -->
+
+<!-- ! ---------------------------------------  login page  ----------------------------------------! -->
+<!-- ! ---------------------------------------  login page  ----------------------------------------! -->
+<section class="contactus" id="contactus"  >
+    <div class="container-fluid h-100 ">
+        <div class="row m-auto h-100">
+            <div class="col-lg-12 row  m-auto contact_container text-center">
+                <div class="col-lg-6">
+                    <h3 class="mt-5">تواصل معنا عن طريق البريد الالكتروني </h3>
+                    <form>
+                        <div class="row text-light">
+                            <div class="col-lg-12 mt-5">
+                                <input type="text" class="form-control col-lg-7 m-auto" placeholder="اسم المستخدم">
+                            </div>
+                            
+                            <div class="col-lg-12 mt-5">
+                                <input type="email" class="form-control col-lg-7 m-auto" placeholder="عنوان البريد الالكتروني">
+                            </div>
+
+                            <div class="col-lg-12 mt-5">
+                                    <textarea class="form-control col-lg-7 m-auto" id="" cols="30" rows="4" placeholder="الموضوع"></textarea>
+                            </div>
+
+                            <div class="col-lg-12 mt-3">
+                                <button type="submit" class="butn1"> إرسال </button>
+                            </div>
+                        </div>
+
+                        <!-- <p>ليس لديك حساب؟<a class="targetLink" href="signUp.html">اشتراك</a>  </p> -->
+                        <p>ارجع الى  <a class="targetLink" href="index.html">الصفحة الرئيسية</a>  </p>
+                    </form>
+                </div>
+
+
+
+                <div class="col-lg-6 p-3 text-right">
+                    <h4 class=" text-light mt-5"> اثاث </h4>
+                    <h5 class=" text-light">تواصل معنا عن طريق وسائل التواصل الاجتماعيه </h5>
+
+                    <div class="">
+                
+                        <div class="social-links d-flex">
+                            <a href="#!"><i class="  text-light social-icon ml-3 fab fa-facebook-square "></i> </a>
+                            <a href="#!"><i class="  text-light social-icon ml-3 fab fa-instagram "></i> </a>
+                            <a href="#!"><i class="  text-light social-icon ml-3 fab fa-twitter "></i></a> 
+                            <a href="#!"><i class="  text-light social-icon ml-3 fab fa-whatsapp"></i></a>     
+                            <a href="#!"><i class="  text-light social-icon ml-3 fab fa-github"></i></a>
+                            <a href="#!"><i class="  text-light social-icon ml-3 fab fa-linkedin"></i></a>
+                            
+                        </div>
+
+                        <p class="mt-5 text-light"> لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) 
+                            لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي 
+                            (بمعنى أن الغاية هي الشكل وليس المحتوى) لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) 
+                        </p>
+                        <p> <span> عنوان : </span> شارع اي حاجه , القاهره , مصر  </p>
+                    
+                        <p> <span> هاتف : </span> +201064691587 </p> 
+                    
+                        <p> <span> الايميل : </span> Furniture@Support.Com </p>
+                       
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ! ---------------------------------------  login page  ----------------------------------------! -->
+<!-- ! ---------------------------------------  login page  ----------------------------------------! -->
+
+
+<!-- bootstrap -->
+<script src="js/bootstrap/jquery-3.5.1.js"></script>
+<script src="js/bootstrap/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- fontawsome -->
+<script src="js/fontawsome/fontawesome.min.js"></script>
+<script src="js/fontawsome/solid.min.js"></script>
+<script src="js/fontawsome/brands.min.js"></script>
+<!-- main scripts --> 
+<script src="js/custom.js"></script>
+
+<script>
+/* 1. Proloder */
+$(window).on('load', function () {
+    $('#preloader-active').delay(450).fadeOut('slow');
+    $('body').delay(850).css({
+    'overflow': 'visible'
+    });
+});

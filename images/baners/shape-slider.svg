@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="136" viewBox="0 0 1600 136">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_32" data-name="Rectangle 32" width="1600" height="136" transform="translate(0 551)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(0 -551)" clip-path="url(#clip-path)">
+    <g id="Group_80" data-name="Group 80" transform="translate(440.777 12)">
+      <g id="Design---Desktop" transform="translate(-440.777 681) rotate(-90)">
+        <g id="Homepage---Desktop---Axe-1" transform="translate(0 0)">
+          <g id="Sport-events" transform="translate(0 0)">
+            <g id="Sidebar---Search">
+              <g id="Background">
+                <path id="Fill-1" d="M9.624,1600c0-234.942,34.024-344.893,68.79-728.116C110.8,514.953,44.764,364.213,9.624,0H0V1600Z" fill="#fff" fill-rule="evenodd"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Design---Desktop-2" data-name="Design---Desktop" transform="translate(-440.777 689) rotate(-90)" opacity="0.6">
+        <g id="Homepage---Desktop---Axe-1-2" data-name="Homepage---Desktop---Axe-1">
+          <g id="Sport-events-2" data-name="Sport-events" transform="translate(0 0)">
+            <g id="Sidebar---Search-2" data-name="Sidebar---Search">
+              <g id="Background-2" data-name="Background">
+                <path id="Fill-1-2" data-name="Fill-1" d="M16.574,1246.3c0-183.005,58.593-268.649,118.466-567.156C190.8,401.116,77.09,283.7,16.574,0H0V1246.3Z" fill="#fff" fill-rule="evenodd"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
