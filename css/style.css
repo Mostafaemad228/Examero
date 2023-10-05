@@ -1330,6 +1330,48 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
-@media screen and (max-width: 575px) {}
+@media screen and (max-width: 575px) {
 
-@media screen and (max-width: 362px) {}
+.waveheader {
+        top: 97% !important;
+        left: 0%;
+    }
+    .goal {
+        width: 100%;
+        height: auto;
+        background-color: #FCF9ED;
+        padding-bottom: 65px !important;
+    }
+    .testemonials {
+        width: 100%;
+        height: auto;
+        background-color: #E2F8EB;
+        padding-bottom: 65px !important;
+    }
+    .doc-photo-marg {
+        margin-top: -45px !important;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .waveheader {
+        top: 97% !important;
+        left: 0%;
+    }
+    .goal {
+        width: 100%;
+        height: auto;
+        background-color: #FCF9ED;
+        padding-bottom: 65px !important;
+    }
+    .testemonials {
+        width: 100%;
+        height: auto;
+        background-color: #E2F8EB;
+        padding-bottom: 65px !important;
+    }
+    .doc-photo-marg {
+        margin-top: -45px !important;
+    }
+
+}
