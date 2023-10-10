@@ -23,6 +23,8 @@ html {
     text-decoration: none !important;
     text-transform: capitalize !important;
     font-family: 'Tajawal', sans-serif !important; 
+    box-shadow: none !important;
+
 
 }
 
@@ -972,7 +974,8 @@ footer {
 
 
 
-.count{
+.count,
+.modal-content{
     width: 100%;
     height: auto;
     position: relative;
@@ -1026,63 +1029,61 @@ footer {
 /* /////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////// */
 
-.loginSection {
+.signupSection {
     width: 100%;
-    height: 100vh;
+    height: 100vh !important;
     position: relative;
-    background: rgb(3,1,43);
     /* background: linear-gradient(90deg, 
     rgba(3,1,43,1) 0%, rgba(0,7,36,1) 6%, rgba(9,9,121,1) 44%, rgba(8,71,133,1) 77%, rgba(0,212,255,1) 100%); */
-    background: url('../images/signup/signup.jpg') no-repeat center ;
+    background: url('../images/baners/signup.jpg') no-repeat center ;
     background-size: cover;
 }
 
-.signupSection {
+/* .signupSection {
     width: 100%;
-    height: 100vh;
+    height: 100vh !important;
     position: relative;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-}
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); 
+} */
 
-.MainLogin {
+.Mainsignup {
     height: auto;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
     background: rgba(0, 0, 0, 0.5);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 2.5px );
--webkit-backdrop-filter: blur( 2.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
-.MainLogin h3 {
-    color: var(--sec-color) !important;
+.Mainsignup h3 {
+    color: white !important;
     font-family: 'Gaegu', cursive;
 }
 
-.MainLogin p {
-    color: var(--sec-color);
+.Mainsignup p {
+    color: white;
     font-family: 'Gaegu', cursive;
 }
 
-.MainLogin form input {
+.Mainsignup form input {
     background-color: transparent !important;
     color: #fff;
-    border: 1.7px solid var(--sec-color) !important;
+    border: 1.7px solid #fff !important;
 }
 
-.MainLogin form input:focus {
+.Mainsignup form input:focus {
     color: #fff;
 }
 
-.MainLogin form input::placeholder {
-    color: var(--sec-color);
+.Mainsignup form input::placeholder {
+    color: white;
 }
 
 .targetLink {
     font-family: 'Stylish', sans-serif;
-    color: var(--main-color);
+    color: #15fa80 !important;
     font-size: 19px;
 }
 
@@ -1096,7 +1097,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     background: rgb(3,1,43);
     /* background: linear-gradient(90deg, 
     rgba(3,1,43,1) 0%, rgba(0,7,36,1) 6%, rgba(9,9,121,1) 44%, rgba(8,71,133,1) 77%, rgba(0,212,255,1) 100%); */
-    background: url('../images/baners/pexels-m&w-studios-90319.jpg') no-repeat center ;
+    background: url('../images/baners/contact.png') no-repeat center ;
     background-size: cover;
 }
 
@@ -1105,11 +1106,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: auto;
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
     background: rgba(0, 0, 0, 0.662);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 2.5px );
--webkit-backdrop-filter: blur( 2.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
@@ -1135,7 +1136,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     color: #fff;
 }
 
-.contact_container form input::placeholder {
+.contact_container form input::placeholder,
+.contact_container form textarea::placeholder {
     color: #fff;
 }
 
